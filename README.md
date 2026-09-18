@@ -33,8 +33,4 @@ GitHub 公開專案：[ColinChang77/forestmind-ios](https://github.com/ColinChan
 | 最終操作影片 | `SCREENSHOTS/森心任務-demo-1min.mp4`（62.928 秒）。 |
 | 加分音效 | 關於頁可切換操作與完成音效。 |
 
-## 素材與授權
 
-- 網路照片：[Unsplash forest photo](https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=80)
-- 本機插圖與 App Icon：自行製作 SVG／PNG。
-- 字體：Huninn（粉圓），OFL 授權檔為 `森心任務/OFL-Huninn.txt`。
