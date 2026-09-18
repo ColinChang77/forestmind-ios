@@ -1,26 +1,42 @@
 # 森心任務（SwiftUI）
 
-以 SwiftUI 製作的 iPhone 情緒小遊戲。選擇心情後完成 60 秒任務，便會在「我的森林」累積一株心情植物；成果用 `@AppStorage` 存在裝置上。
+「森心任務」是一個 iPhone 情緒停靠小工具：選一種當下心情、完成可自訂的短任務，並把這次停下來照顧自己的紀錄，種成森林裡的一株植物。
 
-## 開啟與執行
+GitHub 公開專案：[ColinChang77/forestmind-ios](https://github.com/ColinChang77/forestmind-ios)
+
+## 執行方式
 
 1. 用 Xcode 開啟 `森心任務.xcodeproj`。
-2. 選一台 iPhone Simulator，例如 iPhone 16 Pro。
+2. 選擇 iPhone Simulator。
 3. 按 `⌘R` 執行。
+
+## 功能
+
+- 四個頁面：此刻、任務、森林、關於。
+- 四種心情、15 秒到 5 分鐘的自訂倒數、暫停／續跑。
+- 任務完成後留下筆記並種下植物；使用 `@AppStorage` 保存。
+- 森林收藏、植物詳情、連續照顧天數與可開關的系統音效。
 
 ## 作業要求對照
 
-| 要求 | 實作位置 |
+| 要求 | 成品證據 |
 | --- | --- |
-| 小遊戲 | `ContentView.swift` 的心情選擇、60 秒倒數、種植物 |
-| 多頁面 | `TabView`：首頁、任務、森林、關於 |
-| 專案內圖片 | `Assets.xcassets` 的 ForestFriend 與 AppMark |
-| 網路圖片 | 首頁 `AsyncImage` 載入 Unsplash 森林照片 |
-| 客製字型 | `Lexend-Regular.ttf`、`Lexend-SemiBold.ttf`，啟動時以 CoreText 註冊 |
-| App Icon | `AppIcon.appiconset/AppIcon.png` 是自製的 1024×1024 PNG App Icon |
+| 小遊戲／工具 App | 心情任務、可自訂倒數、完成後種植物。 |
+| 多個頁面 | `TabView` 的此刻、任務、森林、關於。 |
+| AI 輔助 IDE 開發 | 使用 Codex 與 Xcode 完成 SwiftUI 專案。 |
+| App 名稱與 Icon | App 名稱「森心任務」；`AppIcon.appiconset/AppIcon.png`。 |
+| 本機圖片 | `Assets.xcassets` 的 `ForestFriend`、`AppMark` SVG。 |
+| 網路圖片 | 關於頁以 `AsyncImage` 顯示 Unsplash 森林照片。 |
+| 客製字體 | `Huninn-Regular.ttf`（粉圓）已打包並透過 CoreText 註冊。 |
+| AI 對話 | `/Users/holingchang/Desktop/conversation.txt`。 |
+| App 畫面截圖 | `SCREENSHOTS/01-home.png` 至 `SCREENSHOTS/05-about.png`。 |
+| 最終操作影片 | `SCREENSHOTS/森心任務-demo-1min.mp4`（62.928 秒）。 |
+| 加分音效 | 關於頁可切換操作與完成音效。 |
 
-## 截圖與 GIF
+## 素材與授權
 
-請在 Simulator 裡完成以下畫面後按 `⌘S` 截圖：首頁、選擇心情、任務倒數、任務完成、森林收藏、關於頁。錄製影片可用 Simulator 的 File → Record Screen；再用 macOS「快速動作」或線上轉檔工具將短片轉成 GIF。
+- 網路照片：[Unsplash forest photo](https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=80)
+- 本機插圖與 App Icon：自行製作 SVG／PNG。
+- 字體：Huninn（粉圓），OFL 授權檔為 `森心任務/OFL-Huninn.txt`。
 
-可直接貼到 Medium 的文章草稿在 [MEDIUM_POST.md](MEDIUM_POST.md)。
+Medium 作業草稿在 [MEDIUM_POST.md](MEDIUM_POST.md)。
