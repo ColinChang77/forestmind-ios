@@ -484,7 +484,8 @@ private struct ForestButton: ButtonStyle {
 }
 
 private extension Font {
-    static func forest(_ size: CGFloat, weight: Font.Weight = .regular) -> Font { .custom(weight == .bold || weight == .semibold ? "Lexend-SemiBold" : "Lexend-Regular", size: size) }
+    /// Huninn（粉圓）是為台灣繁中設計的圓體，讓整個 App 保有柔和、陪伴感的語氣。
+    static func forest(_ size: CGFloat, weight: Font.Weight = .regular) -> Font { .custom("Huninn-Regular", size: size) }
 }
 
 private extension Color {
