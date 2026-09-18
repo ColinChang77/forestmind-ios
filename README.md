@@ -38,5 +38,3 @@ GitHub 公開專案：[ColinChang77/forestmind-ios](https://github.com/ColinChan
 - 網路照片：[Unsplash forest photo](https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=80)
 - 本機插圖與 App Icon：自行製作 SVG／PNG。
 - 字體：Huninn（粉圓），OFL 授權檔為 `森心任務/OFL-Huninn.txt`。
-
-Medium 作業草稿在 [MEDIUM_POST.md](MEDIUM_POST.md)。
